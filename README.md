@@ -3,7 +3,7 @@
 **Author:** [Parviz Tajdari](https://github.com/parvizt) ([LinkedIn](https://www.linkedin.com/in/parviz-tajdari-69364925a)) — *Computational Geosciences & Numerical Geomechanics Framework*
 
 | Badge | Value |
-| :--- | :--- |
+
 | 🐍 Language | Python 3.9+ |
 | 🖥️ GUI | PyQt5 · PyQtGraph |
 | 🔬 Research | LTU Ref: 4286-2026 |
@@ -22,7 +22,7 @@ In this software, cyclical injection and withdrawal of compressed hydrogen gas (
 
 ---
 
-**🛠️ Installation**
+## 🛠️ Installation
 
 **Step 1 — Clone the repository:**
 ```bash
@@ -34,13 +34,16 @@ cd LRC-HydroGeoMechanics-Simulator-Pro
 bash
 pip install PyQt5 pyqtgraph numpy scipy
 
-| 📦 Package | 🔧 Purpose |
-| PyQt5 | Desktop GUI framework |
-| pyqtgraph | Scientific real-time plotting |
-| numpy | Numerical array operations |
-| scipy | ODE solving & signal processing |
+<div align="center">
 
----
+| 📦 Package | 🔧 Purpose |
+|:----------:|:-----------|
+| `PyQt5` | Desktop GUI framework |
+| `pyqtgraph` | Scientific real-time plotting |
+| `numpy` | Numerical array operations |
+| `scipy` | ODE solving & signal processing |
+
+</div>
 
 **▶️ Run**
 
