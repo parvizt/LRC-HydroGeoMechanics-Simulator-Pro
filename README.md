@@ -106,15 +106,12 @@ On the first run, the `AuthDialog` opens; after authentication, the main `LRCSim
 
 
 | Main Simulation Tab | Stress Profile Chart | Fatigue Analysis |
-| <img width="1919" height="987" alt="1" src="
-https://github.com/user-attachments/assets/5d55c014-96b3-47a1-8e44-becff8f314a2
-" /> 
-|<img width="1920" height="986" alt="2" src="
-https://github.com/user-attachments/assets/2a615cf2-49f4-4d6d-bc9f-9a68477dbef8
-" /> 
-| <img width="1920" height="989" alt="3" src="
-https://github.com/user-attachments/assets/54efcccd-2fc5-467b-94ad-708f526eb861
-" /> |
+|
+<img width="1919" height="987" alt="1" src="https://github.com/user-attachments/assets/609b3131-c195-4266-a5fe-e9bfee307bac" />
+|
+|   |<img width="1920" height="986" alt="2" src="https://github.com/user-attachments/assets/ef113dee-e8c2-4c96-ada1-7a21ab2ff2ab" /> |<img width="1920" height="989" alt="3" src="https://github.com/user-attachments/assets/00bfc53c-eedd-45ad-b78d-0818970a53f9" />
+|
+
 
 
 ---
