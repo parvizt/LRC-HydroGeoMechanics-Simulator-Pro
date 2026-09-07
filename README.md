@@ -18,6 +18,9 @@
 | ⚙️ Physics | Kirsch | Mohr-Coulomb | Poroelasticity |
 | 🚀 Build | 2026.09.06 · v1.0.0 |
 
+
+<img width="1536" height="1024" alt="lrc" src="https://github.com/user-attachments/assets/24541adc-f2eb-414a-a643-6fcd865ff2d0" />
+
 ---
 
 ## 📌 2. Executive Summary & Research Scope
