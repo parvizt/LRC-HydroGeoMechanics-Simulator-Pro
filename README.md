@@ -43,6 +43,7 @@
 - 🔍 **Zoom Control** — Dynamic font & UI scaling
 
 ---
+<div align="center">
 
 ## 🛠️ Installation
 ```bash
@@ -54,6 +55,7 @@ pip install PyQt5 pyqtgraph numpy scipy
 | `pyqtgraph` | Scientific real-time plotting |
 | `numpy` | Numerical array operations |
 | `scipy` | ODE solving & signal processing |
+</div>
 
 ---
 
