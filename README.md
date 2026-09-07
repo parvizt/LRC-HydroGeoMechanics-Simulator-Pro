@@ -1,12 +1,7 @@
-# 🔬 LRC-HydroGeoMechanics Simulator Pro
-
-> **Luleå University Edition** | LTU Underground H₂ Storage Framework  
-> 🏛️ Developed for LTU Ref: **4286-2026** | 🌐 [AiBrothersTools.ir](https://AiBrothersTools.ir)
-
----
 <div align="center">
 
 # ⚡ LRC-HydroGeoMechanics Simulator Pro ⚡
+
 ### 🧪 Coupled Thermo-Hydro-Mechanical (THM) Framework for Underground Hydrogen Storage (UHS) in Lined Rock Caverns
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -15,7 +10,9 @@
 [![Geomechanics](https://img.shields.io/badge/Physics-Kirsch%20%7C%20Mohr--Coulomb%20%7C%20Poroelasticity-red.svg?style=for-the-badge)]()
 [![Status](https://img.shields.io/badge/Build-2026.09.06%20v1.0.0-purple.svg?style=for-the-badge)]()
 
-<br/>
+</div>
+
+---
 
 ## 🧾 Project Info
 
@@ -26,8 +23,7 @@
 | 🐍 **Python** | 3.9+ |
 | 🖥️ **GUI** | PyQt5 |
 | 📊 **Plotting** | pyqtgraph |
-| 🗄️ **Database** | SQLite3 |
-| 🔢 **Numerics** | NumPy · SciPy |
+| 🗄️ **Database** | SQL THM Solver** — Thermo-Hydro-Mechanical analytimPy · SciPy |
 
 ---
 
@@ -37,9 +33,8 @@
 - 📈 **Spatial Stress Profiling** — Radial & tangential stress distribution around lined rock caverns
 - 🔄 **Cyclic Fatigue Analysis** — Steel liner Von Mises stress vs. S355 yield limit over injection/withdrawal cycles
 - 🧱 **Plastic Zone Estimation** — Mohr-Coulomb failure criterion (Kastner-type analytical form)
-- 💾r injection/withdrawal cycles
-- 🧱 **Plastic Zone Estimation** — Mohr-Coulomb failure criterion (Kastner-type analytical form)
-- 💾t: `admin`)
+- 💾 **Scenario Database** — Save, load, and reset simulation scenarios via SQLite
+- 🔐 **Auth Protection** — Password-protected access (default: `admin`)
 - 🎨 **Multi-Theme UI** — Pro · Dark · Classic · Pink
 - 🔍 **Zoom Control** — Dynamic font & UI scaling
 
@@ -63,10 +58,10 @@ python lrc_simulator.py
 ## 📁 Project Structure
 
 
-lrc_simulator.py       # Main application entry point
-lrc_geomechanics_sim.db  # Auto-generated SQLite database (on first run)
-d:/l.ico               # Optional window icon
-d:/qr.png              # Optional QR image
+lrc_simulator.py          # Main application entry point
+lrc_geomechanics_sim.db   # Auto-generated SQLite database (on first run)
+d:/l.ico                  # Optional window icon
+d:/qr.png                 # Optional QR image
 
 ---
 
@@ -84,17 +79,9 @@ d:/qr.png              # Optional QR image
 ## 📊 Input Parameters
 
 | Category | Parameters |
-|----------|-------- |
-| `AuthDialog` | Password authentication dialog |
-
----
-
-## 📊 Input Parameters
-
-| Category | Parameters |
 |----------|-----------|
 | 🪨 **Geological** | Depth, Cavern Radius, Rock Density, K₀ |
-|  Angle, Liner Thickness |
+| 🔩 **Mechanical** | UCS, Friction Angle, Liner Thickness, E, ν |
 | 💨 **Operational** | P_min, P_max, ΔT (thermal), Annual Injection Cycles |
 
 ---
@@ -117,4 +104,9 @@ This project is developed for research purposes at **Luleå University of Techno
 </div>
 
 
----
+تغییرات اعمال‌شده:
+- Features: موارد تکراری حذف، `💾` و `🔐` درست اضافه شد
+- Requirements: بلاک کد درست بسته شد
+- Project Structure: بلاک `code` صحیح
+- Input Parameters: تکرار حذف، ردیف Mechanical با پارامترهای واقعی اضافه شد
+- Physics Modules: جدول با alignment درست
