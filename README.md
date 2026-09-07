@@ -22,7 +22,7 @@ In this software, cyclical injection and withdrawal of compressed hydrogen gas (
 
 ---
 
-## 🛠️ Installation
+**🛠️ Installation**
 
 **Step 1 — Clone the repository:**
 ```bash
@@ -35,7 +35,6 @@ bash
 pip install PyQt5 pyqtgraph numpy scipy
 
 | 📦 Package | 🔧 Purpose |
-| :--- | :--- |
 | PyQt5 | Desktop GUI framework |
 | pyqtgraph | Scientific real-time plotting |
 | numpy | Numerical array operations |
@@ -43,22 +42,21 @@ pip install PyQt5 pyqtgraph numpy scipy
 
 ---
 
-## ▶️ Run
+**▶️ Run**
 
 bash| scipy | ODE solving & signal processing |
 
 ---
 
-## ▶️ Run
+**▶️ Run**
 
-```bash🗄️ The SQLite database (`lrc_geomechanics_sim.db`) is created automatically on first launch — no manual setup required.
+bash🗄️ The SQLite database (`lrc_geomechanics_sim.db`) is created automatically on first launch — no manual setup required.
 
 On the first run, the `AuthDialog` opens; after authentication, the main `LRCSimulatorPro` window loads and all saved scenarios are read from the local SQLite store.
 
 ---
 
-## 📁 Project Structure
-```text
+**📁 Project Structure**
 📦 LRC-HydroGeoMechanics-Simulator-Pro/
 │
 ├── 🐍  lrc_simulator.py          ← Main application entry point
@@ -68,7 +66,7 @@ On the first run, the `AuthDialog` opens; after authentication, the main `LRCSim
 
 ---
 
-## 🧮 Physics Modules
+**🧮 Physics Modules**
 
 | 🔬 Module | 🧩 Role |
 | :--- | :--- |
@@ -79,17 +77,16 @@ On the first run, the `AuthDialog` opens; after authentication, the main `LRCSim
 
 ---
 
-## 📊 Input Parameters
+**📊 Input Parameters**
 
 | 🗂️ Category | 📐 Parameters |
-| :--- | :--- |
 | 🪨 Geological | Depth `H`, cavern radius `R`, rock density `ρ`, lateral stress ratio `K₀` |
 | 🔩 Mechanical | UCS, friction angle `φ`, liner thickness `t`, Young's modulus `E`, Poisson's ratio `ν` |
 | 💨 Operational | Min. pressure `P_min`, Max. pressure `P_max`, thermal delta `ΔT`, annual cycles `N` |
 
 ---
 
-## 🖼️ Screenshots
+**🖼️ Screenshots**
 
 | Main Simulation Tab | Stress Profile Chart | Fatigue Analysis |
 <img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/613a53a7-2fbc-4242-b07e-c48843422dfb" />
@@ -101,7 +98,7 @@ On the first run, the `AuthDialog` opens; after authentication, the main `LRCSim
 
 ---
 
-## 👨‍💻 Developer & Footer
+**👨‍💻 Developer & Footer**
 
 - 👤 **Parviz Tajdari** — [github.com/parvizt](https://github.com/parvizt)
 - 🔖 **Freelance** — [kwork.com/user/parvizt](https://kwork.com/user/parvizt)
@@ -113,7 +110,7 @@ On the first run, the `AuthDialog` opens; after authentication, the main `LRCSim
 
 ---
 
-## 📚 Reference
+**📚 Reference**
 
 Liang, Y., Chai, Y., Wang, X., Espley, S., & Yin, S. (2026). *Hydrogen Underground Storage in Lined Rock Caverns in Southern Ontario, Canada.* Mining, 6(3), 60.
 
