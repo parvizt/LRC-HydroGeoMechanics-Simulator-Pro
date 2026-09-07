@@ -1,79 +1,108 @@
+# 🔬 LRC-HydroGeoMechanics Simulator Pro
 
-</div>
-
-## 📌 1. Executive Summary & Research Scope
-
-Large-scale **Underground Hydrogen Storage (UHS)** in **Lined Rock Caverns (LRCs)** is a foundational pillar for northern Sweden's green transition (e.g., HYBRIT initiative and fossil-free steelmaking). Cyclical injection and withdrawal of compressed hydrogen gas ($H_2$) at pressures up to $25\text{ MPa}$ subject the host crystalline rock and engineered liners to severe **coupled Thermo-Hydro-Mechanical (THM)** cyclic loads.
-
-<div align="center">
-
-# ⚡ LRC-HydroGeoMechanics Simulator Pro ⚡
-### 🧪 Coupled Thermo-Hydro-Mechanical (THM) Framework for Underground Hydrogen Storage (UHS) in Lined Rock Caverns
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![PyQt5](https://img.shields.io/badge/GUI-PyQt5%20%7C%20PyQtGraph-green.svg?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
-[![Research](https://img.shields.io/badge/Research-LTU%20Ref%3A%204286--2026-orange.svg?style=for-the-badge&logo=sciencedirect&logoColor=white)](https://www.ltu.se)
-[![Geomechanics](https://img.shields.io/badge/Physics-Kirsch%20%7C%20Mohr--Coulomb%20%7C%20Poroelasticity-red.svg?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/Build-2026.09.06%20v1.0.0-purple.svg?style=for-the-badge)]()
-
-<br/>
-
-**Author:** **Parviz Tajdari** ([GitHub](https://github.com/parvizt) | [LinkedIn](https://linkedin.com/in/parviz-tajdari-69364925a))  
-*Computational Geosciences & Numerical Geomechanics Framework*
+> **Luleå University Edition** | LTU Underground H₂ Storage Framework  
+> 🏛️ Developed for LTU Ref: **4286-2026** | 🌐 [AiBrothersTools.ir](https://AiBrothersTools.ir)
 
 ---
 
+## 🧾 Project Info
+
+| Field | Details |
+|-------|---------|
+| 📦 **Version** | 1.0.0 (Build 2026.09.06) |
+| 👤 **Author** | Parviz Tajdari — [github.com/parvizt](https://github.com/parvizt) |
+| 🐍 **Python** | 3.9+ |
+| 🖥️ **GUI** | PyQt5 |
+| 📊 **Plotting** | pyqtgraph |
+| 🗄️ **Database** | SQLite3 |
+| 🔢 **Numerics** | NumPy · SciPy |
+
+---
+
+## 🚀 Features
+
+- ⚙️ **Coupled THM Solver** — Thermo-Hydro-Mechanical analytical engine using modified Kirsch equations
+- 📈 **Spatial Stress Profiling** — Radial & tangential stress distribution around lined rock caverns
+- 🔄 **Cyclic Fatigue Analysis** — Steel liner Von Mises stress vs. S355 yield limit over injection/withdrawal cycles
+- 🧱 **Plastic Zone Estimation** — Mohr-Coulomb failure criterion (Kastner-type analytical form)
+- 💾r injection/withdrawal cycles
+- 🧱 **Plastic Zone Estimation** — Mohr-Coulomb failure criterion (Kastner-type analytical form)
+- 💾t: `admin`)
+- 🎨 **Multi-Theme UI** — Pro · Dark · Classic · Pink
+- 🔍 **Zoom Control** — Dynamic font & UI scaling
+
+---
+
+## 🛠️ Requirements
+```bash
+pip install PyQt5 pyqtgraph numpy scipy
+
+---
+
+## ▶️ Run
+
+bash
+python lrc_simulator.py
+
+> 🔑 Default password: `admin`
+
+---
+
+## 📁 Project Structure
+
+
+lrc_simulator.py       # Main application entry point
+lrc_geomechanics_sim.db  # Auto-generated SQLite database (on first run)
+d:/l.ico               # Optional window icon
+d:/qr.png              # Optional QR image
+
+---
+
+## 🧮 Physics Modules
+
+| Module | Description |
+|--------|-------------|
+| `CoupledTHMEngine` | Core THM analytical solver |
+| `DBManager` | SQLite CRUD for simulation records |
+| `LRCSimulatorPro` | Main PyQt5 GUI application window |
+| `AuthDialog` | Password authentication dialog |
+
+---
+
+## 📊 Input Parameters
+
+| Category | Parameters |
+|----------|-------- |
+| `AuthDialog` | Password authentication dialog |
+
+---
+
+## 📊 Input Parameters
+
+| Category | Parameters |
+|----------|-----------|
+| 🪨 **Geological** | Depth, Cavern Radius, Rock Density, K₀ |
+|  Angle, Liner Thickness |
+| 💨 **Operational** | P_min, P_max, ΔT (thermal), Annual Injection Cycles |
+
+---
+
+## 🖼️ Screenshots
+
+> *(Add screenshots here)*
+
+---
+
+## 📜 License
+
+This project is developed for research purposes at **Luleå University of Technology (LTU)**.  
+🔖 Watermark: [kwork/user/parvizt](https://kwork.com/user/parvizt)
+
+---
+
+<div align="center">
+  Built with ❤️ by <a href="https://github.com/parvizt">Parviz Tajdari</a> · <a href="https://AiBrothersTools.ir">AiBrothersTools.ir</a>
 </div>
 
-## 📌 1. Executive Summary & Research Scope
 
-Large-scale **Underground Hydrogen Storage (UHS)** in **Lined Rock Caverns (LRCs)** is a foundational pillar for northern Sweden's green transition (e.g., HYBRIT initiative and fossil-free steelmaking). Cyclical injection and withdrawal of compressed hydrogen gas ($H_2$) at pressures up to $25\text{ MPa}$ subject the host crystalline rock and engineered liners to severe **coupled Thermo-Hydro-Mechanical (THM)** cyclic loads.
-=========================================== 🔷 LRC STRUCTURAL & PRESSURE BOUNDARY 🔷
-Ground Surface
-|
-
-| In-situ Overburden:
-
-| σ_v = ρ · g · h
-
-| σ_h = K_0 · σ_v
-
-v (Depth: 500 m)
-
-±--------------------------+
-
-| Host Crystalline |
-
-| Rock Mass |
-
-| (E_rock, ν_rock, c, φ) |
-
-| |
-
-| /-------------\ |
-
-| / Concrete \ |
-
-| / Cushion \ |
-
-| | ±----------+ | |
-
-| | |Steel Liner| | |
-
-| | | (t_liner)| | |
-
-| | | H₂ | | |
-
-| | | P_cyclic | | |
-
-| | | ΔT_therm | | |
-
-| | ±----------+ | |
-
-| \ / |
-
-| \ / |
-
-| -------------/ |
-
-±--------------------------+
+---
