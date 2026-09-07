@@ -1,3 +1,10 @@
+
+</div>
+
+## 📌 1. Executive Summary & Research Scope
+
+Large-scale **Underground Hydrogen Storage (UHS)** in **Lined Rock Caverns (LRCs)** is a foundational pillar for northern Sweden's green transition (e.g., HYBRIT initiative and fossil-free steelmaking). Cyclical injection and withdrawal of compressed hydrogen gas ($H_2$) at pressures up to $25\text{ MPa}$ subject the host crystalline rock and engineered liners to severe **coupled Thermo-Hydro-Mechanical (THM)** cyclic loads.
+
 <div align="center">
 
 # ⚡ LRC-HydroGeoMechanics Simulator Pro ⚡
@@ -21,3 +28,52 @@
 ## 📌 1. Executive Summary & Research Scope
 
 Large-scale **Underground Hydrogen Storage (UHS)** in **Lined Rock Caverns (LRCs)** is a foundational pillar for northern Sweden's green transition (e.g., HYBRIT initiative and fossil-free steelmaking). Cyclical injection and withdrawal of compressed hydrogen gas ($H_2$) at pressures up to $25\text{ MPa}$ subject the host crystalline rock and engineered liners to severe **coupled Thermo-Hydro-Mechanical (THM)** cyclic loads.
+=========================================== 🔷 LRC STRUCTURAL & PRESSURE BOUNDARY 🔷
+Ground Surface
+|
+
+| In-situ Overburden:
+
+| σ_v = ρ · g · h
+
+| σ_h = K_0 · σ_v
+
+v (Depth: 500 m)
+
+±--------------------------+
+
+| Host Crystalline |
+
+| Rock Mass |
+
+| (E_rock, ν_rock, c, φ) |
+
+| |
+
+| /-------------\ |
+
+| / Concrete \ |
+
+| / Cushion \ |
+
+| | ±----------+ | |
+
+| | |Steel Liner| | |
+
+| | | (t_liner)| | |
+
+| | | H₂ | | |
+
+| | | P_cyclic | | |
+
+| | | ΔT_therm | | |
+
+| | ±----------+ | |
+
+| \ / |
+
+| \ / |
+
+| -------------/ |
+
+±--------------------------+
