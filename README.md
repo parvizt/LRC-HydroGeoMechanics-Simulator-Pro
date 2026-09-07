@@ -5,6 +5,13 @@ Author: Parviz Tajdari (GitHub | LinkedIn) — Computational Geosciences & Numer
 BadgeValue🐍 LanguagePython 3.9+🖥️ GUIPyQt5 | PyQtGraph🔬 ResearchLTU Ref: 4286-2026⚙️ PhysicsKirsch | Mohr-Coulomb | Poroelasticity🚀 Build2026.09.06 · v1.0.0
 
 
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/PyQt5-5.x-41CD52?style=flat-square&logo=qt&logoColor=white)
+![pyqtgraph](https://img.shields.io/badge/pyqtgraph-visualization-orange?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-scientific-013243?style=flat-square&logo=numpy)
+![SciPy](https://img.shields.io/badge/SciPy-analytical-8CAAE6?style=flat-square&logo=scipy)
+![SQLite](https://img.shields.io/badge/SQLite-persistence-003B57?style=flat-square&logo=sqlite)
+![License](https://img.shields.io/badge/License-Research--Use-blueviolet?style=flat-square)
 
 💡 This README is designed as a single self-contained canvas for the GitHub repository front page.
 
@@ -72,13 +79,7 @@ The analytical pipeline of CoupledTHMEngine computes the circumferential and rad
 Every scenario defined by these inputs is persisted through DBManager and can be reloaded later, enabling systematic sensitivity defined by these inputs is persisted through DBManager and can be reloaded later, enabling systematic sensitivity and fatigue comparisons across parameter sets.
 
 🖼️ Screenshots
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyQt5](https://img.shields.io/badge/PyQt5-5.x-41CD52?style=flat-square&logo=qt&logoColor=white)
-![pyqtgraph](https://img.shields.io/badge/pyqtgraph-visualization-orange?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-scientific-013243?style=flat-square&logo=numpy)
-![SciPy](https://img.shields.io/badge/SciPy-analytical-8CAAE6?style=flat-square&logo=scipy)
-![SQLite](https://img.shields.io/badge/SQLite-persistence-003B57?style=flat-square&logo=sqlite)
-![License](https://img.shields.io/badge/License-Research--Use-blueviolet?style=flat-square)
+
 
 
 📸 Screenshots of the running application will be added here.
